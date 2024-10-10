@@ -1,0 +1,92 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 600px;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid rgba(0,0,0,0.5);
+  margin-top: 50px;
+  border-radius: 50px;
+}
+.input-add{
+  margin-top: 20px;
+  .input{
+    width: 450px;
+    padding: 5px 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid blue;
+    }
+    .button{
+      padding: 5px 10px;
+      background-color: blue;
+      color: white;
+      border: none;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .clear-methed{
+      text-align: end;
+      display: flex;
+      justify-content: right;
+      margin-top: 10px;
+      gap: 10px;
+      padding: 10px;
+      .clear-compeleted{
+        background-color: rgb(255, 213, 0);
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .clear-all{
+        background-color: red;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .clear-market{
+        background-color: rgb(123, 255, 0);
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .clear-beznes{
+        background-color: rgb(255, 162, 0);
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 10px;
+      }
+    }
+    ol{
+      :hover{
+        background-color: rgba(0, 0, 255, 0.5);
+      }
+      li{
+
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid blue;
+        padding: 5px;
+        align-items: center;
+        border-radius: 5px;
+        margin-top: 5px;
+        :hover{
+          background-color: rgba(255, 0, 0, 0.5);
+        }
+        button{
+          background-color: blue;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          padding: 10px 10px;
+        }
+      }
+    }
+}
