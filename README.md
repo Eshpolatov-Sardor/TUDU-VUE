@@ -1,3 +1,4 @@
+![{3E206B62-4B09-45BD-86CF-4DA1278D1190}](https://github.com/user-attachments/assets/ca2689d0-faa5-41c8-9c07-57b7e29b5b25)
 # tuduvue
 
 This template should help get you started developing with Vue 3 in Vite.
